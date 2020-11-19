@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">HAS</string>
+    <string name="no_cardetails">Clique no botão para criar seu lembrete!</string>
+    <string name="title_activity_add_reminder">Adicionar Lembrete</string>
+    <string name="title_activity_edit_reminder">Editar Lembrete</string>
+    <string name="title_activity_licenses">Licenças</string>
+
+    <string name="add_reminder">Lembrete</string>
+    <string name="details">Detalhes</string>
+    <string name="date">Data</string>
+    <string name="time">Hora</string>
+    <string name="repeat">Repetir</string>
+    <string name="repeat_off">Desligado</string>
+    <string name="repeat_no">Intervalo de Repetições </string>
+    <string name="repeat_type">Tipo de Repetição</string>
+
+    <string name="action_discard_reminder">Descartar Lembrete</string>
+    <string name="action_save_reminder">Salvar Lembrete</string>
+
+    <string name="editor_activity_title_new_reminder">Adicionar Detalhes Lembree</string>
+    <string name="editor_activity_title_edit_reminder">Editar Lembrete</string>
+    <string name="unsaved_changes_dialog_msg">Descartar mudanças e sair</string>
+    <string name="discard">Descartar</string>
+
+    <string name="keep_editing">Continuar Editando</string>
+    <string name="delete_dialog_msg">Deletar Esse Lembrete?</string>
+
+    <string name="delete">Deletar</string>
+
+    <string name="cancel">Cancelar</string>
+    <string name="editor_delete_reminder_successful">Lembrete Deletado</string>
+
+    <string name="editor_delete_reminder_failed">Erro Ao Deletar Lembrete</string>
+
+    <string name="editor_insert_reminder_successful">Lembrete Salvo</string>
+
+    <string name="editor_insert_reminder_failed">Erro Ao Salvar Lembrete</string>
+
+    <string name="editor_update_reminder_successful">Lembrete Atualizado</string>
+
+    <string name="editor_update_reminder_failed">Erro Ao Atualizar Lembrete</string>
+
+    <string name="reminder_title">HAS</string>
+</resources>

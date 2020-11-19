@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Unicesumar.HAS">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="HAS"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.Unicesumar.HAS.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.Unicesumar.HAS.ADD_RemedioActivity"
+            android:label="@string/title_activity_add_reminder"
+            android:parentActivityName="com.Unicesumar.HAS.MainActivity"
+            android:theme="@style/AppTheme">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Unicesumar.HAS.MainActivity"
+                />
+        </activity>
+        <provider
+            android:name=".data.HAS_Provider"
+            android:authorities="com.Unicesumar.HAS"
+            android:exported="false" />
+
+        <service
+            android:name=".HAS.HAS_AlarmService"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

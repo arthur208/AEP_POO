@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AEP_4B-HAS.iml" filepath="$PROJECT_DIR$/.idea/modules/AEP_4B-HAS.iml" group="HAS" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AEP_4B-HAS-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AEP_4B-HAS-app.iml" group="HAS/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HAS.iml" filepath="$PROJECT_DIR$/.idea/modules/HAS.iml" group="HAS" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HAS-HAS.iml" filepath="$PROJECT_DIR$/.idea/modules/HAS-HAS.iml" group="HAS" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HAS-HAS-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HAS-HAS-app.iml" group="HAS/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HAS-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HAS-app.iml" group="HAS/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="HAS/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desenv-HAS-HAS.iml" filepath="$PROJECT_DIR$/.idea/modules/desenv-HAS-HAS.iml" group="HAS" />
+    </modules>
+  </component>
+</project>
